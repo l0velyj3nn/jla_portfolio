@@ -11182,29 +11182,36 @@ footer.footer .social-link:hover {
 Core Values Styling 
 ********** */
 
+/* help from Evan */
+
+
 /* Container holding the image and the text */
 .star-container {
   position: relative;
-  text-align: center;
+  padding: 10%;
+}
+
+.star-container > i.bi {
+  position: absolute;
+  font-size: 180px;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: var(--bs-lemon);
+}
+
+.star-container > i.bi::before {
+  text-shadow: 1px 1px 1px black;
 }
 
 /* Centered text */
-.star-centered {
-  position: absolute;
-  top: -200%;
-  left: 75%;
-  transform: translate(-80%, -80%);
-}
-
-/* Icon */
-.mega-icon {
-  height: 8rem;
-  width: 8rem;
-}
-
-/* Shadow */
-.fawe-shadow {
-  filter:drop-shadow(1px 1px 1px gray);
+.star-container .star-content {
+  position: relative;
+  z-index: 2;
+  color: var(--bs-nautical);
+  text-align: center;
+  padding: 50px;
 }
 
 /* Header position */
