@@ -11193,12 +11193,12 @@ Core Values Styling
 
 .star-container > i.bi {
   position: absolute;
-  font-size: 180px;
+  font-size: 200px;
   z-index: 1;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  color: var(--bs-lemon);
+  color: var(--bs-offwhite);
 }
 
 .star-container > i.bi::before {
@@ -11211,7 +11211,7 @@ Core Values Styling
   z-index: 2;
   color: var(--bs-nautical);
   text-align: center;
-  padding: 50px;
+  margin: 50px;
 }
 
 /* Header position */
