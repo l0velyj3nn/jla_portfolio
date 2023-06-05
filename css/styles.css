@@ -10897,8 +10897,8 @@ html {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
@@ -11198,7 +11198,7 @@ Core Values Styling
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  color: var(--bs-offwhite);
+  color: var(--bs-lemon);
 }
 
 .star-container > i.bi::before {
